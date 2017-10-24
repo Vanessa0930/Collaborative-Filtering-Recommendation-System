@@ -1,0 +1,32 @@
+==================================================================================================================
+	This README file contains desciptions for submission files.
+
+	Team members:
+			Xinzhe Lu (xinzhe	446227)
+			Yiying Lu (luyiying	450575)
+			Yinuo Wang (wang.yinuo	451689)
+			Huizhong Zhao (huizhong.zhao	451331)
+==================================================================================================================
+1. Pig for milestone2 partA
+
+- milestone2_part_a.pig is used to calculate the total number of users and items so as to calculate the average overlap of items for users and the average overlap of users for items.
+------------------------------------------------------------------------------------------------------------------
+2. Execution of Step1 to Step3
+
+- Code of Step1 to Step3 are included in Updated Codes folder, including .java, .class, .jar.
+- Inputs, TestingRatings.txt and TrainingRatings.txt, are put in Updated Codes folder
+- sampleTraining.txt is the part of Training ratings set
+------------------------------------------------------------------------------------------------------------------
+3. Evaluation 
+
+- evaluation.pig is included in Evaluation folder of Updated Codes folder.
+------------------------------------------------------------------------------------------------------------------
+4. New User Performance
+
+- UserPerformance.pig is included inside NewUser folder of Updated Codes folder.
+- New user rating information,named NewUserRating.txt, is placed inside NewUser folder  in Updated Codes folder.
+- New itemid-userid pairs file named NewTestingRatings.txt, is placed inside NewUser folder in Updated Codes folder.
+- Similarity matrix, named part-r-00000,is the output from Step3Job2 with new user testing rating file
+- movie_title.txt is placed in Updated Codes folder
+
+
